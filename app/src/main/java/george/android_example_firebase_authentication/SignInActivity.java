@@ -131,8 +131,6 @@ public class SignInActivity extends AppCompatActivity implements
         if (mAuthListener != null) {
             mAuth.removeAuthStateListener(mAuthListener);
         }
-
-
         hideProgressDialog();
     }
     // [END on_stop_remove_listener]
